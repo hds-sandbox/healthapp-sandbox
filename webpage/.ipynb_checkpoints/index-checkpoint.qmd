@@ -1,0 +1,37 @@
+---
+format: 
+  html
+author:
+    - name: Alba Refoyo Martinez
+    orcid: 0000-0002-3674-4007
+    - name: Jennifer Bartell 
+    orcid: 0000-0003-2750-9678
+date-modified: last-modified
+date-format: long
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+::: {.hero-banner}
+# Welcome to Health Data Sandbox Hub 
+:::
+
+Welcome to the Health Data Sandbox. This site consists of several modules focused on health data, each highlighting specific software and analytical approaches. Topics include:
+
+- Electronic health records
+- Precision medicine
+- Dynamic risk prediction.
+
+
+:::{.callout-warning title="HPC best practices"}
+We offer in-person workshops, keep an eye on the upcoming events on the [Sandbox website](https://hds-sandbox.github.io/news.html).
+:::
+
+
+#### Acknowledgements
+
+XXX
+
+Our interactive exercises are developed using the R package developed by @webexercises. 
