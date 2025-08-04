@@ -2,11 +2,13 @@
 
 Repository for the health data sandbox modules. 
 
+```
 healthdata-sandbox/
 ├── data/
 ├── notebooks/ # You can find the tutorials for the different modules here
 ├── scripts/
 └── webpage/
+```
 
 ### Modules and goals 
 
