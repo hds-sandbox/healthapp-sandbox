@@ -3,9 +3,9 @@ format:
   html
 author:
     - name: Alba Refoyo Martinez
-    orcid: 0000-0002-3674-4007
+      orcid: 0000-0002-3674-4007
     - name: Jennifer Bartell 
-    orcid: 0000-0003-2750-9678
+      orcid: 0000-0003-2750-9678
 date-modified: last-modified
 date-format: long
 format:
