@@ -2,7 +2,7 @@ on:
   push:
     branches: main
     paths:
-      - 'Webpage/**'
+      - 'webpage/**'
   workflow_dispatch:
   
 name: Quarto Publish
@@ -29,4 +29,4 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          path: Webpage
+          path: webpage
