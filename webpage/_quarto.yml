@@ -1,27 +1,27 @@
 project:
-    type: website
+  type: website
 
 website:
-    title: "Health Data Sandbox"
-    site-url: 'https://hds-sandbox.github.io/healthdata-sandbox/'
-    navbar:
-        logo: /img/logo.png
-        logo-href: http://hds-sandbox.github.io/ 
-        background: primary    
-        right: 
-            - icon: github
-            href: https://github.com/hds-sandbox
-            aria-label: GitHub
-            - icon: linkedin
-            href: https://www.linkedin.com/company/ucph-heads/
-            aria-label: LinkedIn
-        left:
-            - text: Home
-            href: ./index.qmd
-            - text: Access
-            href: access/setup.qmd
-            - text: Modules
-            href: develop/general-intro.qmd
+  title: "Health Data Sandbox"
+  site-url: "https://hds-sandbox.github.io/healthdata-sandbox/"
+  navbar:
+    logo: /img/logo.png
+    logo-href: http://hds-sandbox.github.io/
+    background: primary
+    right: 
+      - icon: github
+        href: https://github.com/hds-sandbox
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/company/ucph-heads/
+        aria-label: LinkedIn
+    left:
+      - text: Home
+        href: ./index.qmd
+      - text: Access
+        href: access/setup.qmd
+      - text: Modules
+        href: develop/general-intro.qmd
 
 copyright: CC-BY-SA 4.0 license
 
@@ -31,5 +31,6 @@ format:
       light: [materia, css/materialight.scss]
       dark: darkly
     toc: true
+
 filters:
   - css/custom-callout.lua
