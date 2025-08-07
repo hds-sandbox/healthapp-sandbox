@@ -28,3 +28,9 @@ Tip: If the environment isn’t active, double-check that you’ve mounted the c
 For managing software environments in this app, we use [Pixi](https://pixi.sh/dev/getting_started/), a lightweight and flexible environment manager. Make sure to run the `setup.sh` script before launching JupyterLab or submitting jobs to to activate the Pixi environment properly.
 
 As a sandbox member, you can modify the environment, so please be cautious as changes will affect everyone’s setup. If you want to test or experiment, consider installing Pixi environments in a separate directory (copy pixi.toml and run pixi install). That said, all software required for the courses must be installed within hds-sandbox/project/healthdata-app so that the environment’s toml file stays up to date and consistent for all users.
+
+To export the workspace enviroment to a conda environment.yaml file, run the following comamnd: 
+
+```{.bash}
+pixi workspace export conda-environment /work/healthdata-app/envs/hds-pixi-$(date +%Y%m%d).yml
+```
