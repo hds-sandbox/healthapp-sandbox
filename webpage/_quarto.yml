@@ -21,7 +21,25 @@ website:
       - text: Access
         href: access/setup.qmd
       - text: Modules
-        href: develop/general-intro.qmd
+        href: develop/ehr-intro.qmd
+  sidebar:
+    - title: "Modules"
+      style: "docked"
+      search: true
+      contents:
+        - section: "EHR"
+          contents: 
+            - develop/ehr-intro.qmd 
+        - section: "Precision Medicine"
+          contents: 
+        - section: "Dynamic risk prediction"
+          contents:
+        # - section: "R for Data Science"
+        #   contents:
+        #     - href: https://center-for-health-data-science.github.io/R4DataScience/
+        #       text: "R for Data Science Website" 
+        - href: https://center-for-health-data-science.github.io/R4DataScience/
+          text: "R for Data Science Website" 
 
 copyright: CC-BY-SA 4.0 license
 

@@ -6,6 +6,127 @@
 //$sidebar-bg: white;
 //$footer-bg: #4266A1;
 
+// Remove arrow from details element
+details > summary {
+  list-style: none;
+}
+
+details > summary::before {
+  content: "> ";
+  font-size: 1.5em;
+  margin: -5px 7px 0 0;
+  color: #000000;
+  font-weight: bold;
+}
+
+
+// Exercise callout styling
+div {
+    &.callout-exercise {
+      border-left-color: #980a0a !important;
+    }
+    &.callout-exercise {
+        .callout-header {
+            background-color: #fbd6d0 !important; 
+            height: 30px;
+        }
+    }
+}
+
+.callout-exercise > .callout-header::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f303";
+    margin-right: 10px;
+  }
+
+  div.callout-exercise.callout-style-default div.callout-body { 
+    padding-bottom: 0em !important; 
+    margin-bottom: -1.5em !important; 
+  } 
+
+// Hint callout styling
+.callout-hint > .callout-header::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f12e ";
+  margin-right: 10px;
+  color:#0c0b0c;
+}
+
+.callout-hint .callout-header::after {
+  content: " >";  /* Append > symbol after the title */
+  font-weight: 200; /* Optional: Style the symbol */
+  margin-left: 0.3em; /* Add a small space before > */
+  font-size: 1.5em;
+}
+
+div.callout-hint.callout-style-default > .callout-header {
+    background-color: #f3f3f6 !important; 
+    height: 30px;}
+
+
+// definition callout styling
+.callout-definition > .callout-header::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f15c ";
+    margin-right: 10px;
+    color:#bebcbc;
+  }
+  
+div.callout-definition.callout-style-default > .callout-header {
+    background-color: #ffffff !important; 
+    height: 26px;
+}
+
+div.callout-definition {
+  font-size: 15px;
+}
+
+// README callout styling
+.callout-readme > .callout-header::before {
+  font-family: "Courier New", Courier, monospace;
+  margin-right: 10px;
+  color:#606060;
+}
+
+div.callout-readme.callout-style-default > .callout-header {
+  background-color: #e3e3e3 !important; 
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+  height: 30px;
+}
+
+div.callout-readme p{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  margin-bottom: 0.5em !important;
+
+}
+
+// white background for code blocks 
+.white-background code {
+  background-color: white; /* Set background color to white */
+  border-radius: 4px; /* Optional: Add rounded corners */
+  padding: 8px; /* Optional: Add padding */
+  overflow-x: auto; /* Ensure horizontal scrolling if needed */
+}
+
+// div.callout-hint.callout-style-default {
+//     background-color: #ff0000; /* Change to the desired background color */
+//   }   
+
+// banners 
+.hero-banner {
+  position: relative;
+  background-color: rgb(240,245,249);
+  display: flex;
+  justify-content: center;
+}
+
+.hero-banner h1 {
+  color: #39729E !important;
+  font-size: 2.5rem;
+  text-align: center;
+}
 // content actions 
 
 .content-block {

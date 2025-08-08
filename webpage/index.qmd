@@ -16,17 +16,25 @@ format:
 # Welcome to Health Data Sandbox Hub 
 :::
 
-Welcome to the Health Data Sandbox. This site consists of several modules focused on health data, each highlighting specific software and analytical approaches. Topics include:
+&nbsp;
 
-- Electronic health records
-- Precision medicine
-- Dynamic risk prediction.
+The Health Data Sandbox Hub is your gateway to exploring the potential of complex health datasets and the tools used to analyze them. Each interactive module runs in a fully prepared workspace with R, Python, Jupyter, command-line utilities, and selected analysis tools, allowing you to focus on learning rather than setup. You will work with realistic examples from areas such as electronic health records and patient registries, seeing how these data sources can support innovative approaches to healthcare and clinical research.
 
+The modules guide you through the analysis process step-by-step: from identifying and acquiring relevant data, to cleaning, transforming, and visualizing it, followed by statistical evaluation and the application of both supervised and unsupervised machine learning. You will build practical skills in coding, workflow automation, and version control, and learn how High-Performance Computing (HPC) and parallelization make it possible to work efficiently with large-scale datasets.
 
-:::{.callout-warning title="HPC best practices"}
+Later, we introduce genomic and other omics data, showing how molecular information can be connected to phenotypes using transcriptomics, proteomics, metabolomics, and functional data—an approach that is increasingly shaping the future of personalized medicine.
+
+Here, you can explore the following topics:
+
+- Electronic health records – understanding structure, use cases, and privacy considerations.
+- Precision medicine - including predictive modelling and risk estimation.
+- Dynamic risk prediction – covering data sources, preprocessing, modelling, and implementation.
+
+By the end, you will be equipped not only to work confidently with diverse health data, but also to design, document, and share analyses that are clear, reproducible, and scalable—core skills for modern health data science.
+
+:::{.callout-warning title="Sandbox workshops"}
 We offer in-person workshops, keep an eye on the upcoming events on the [Sandbox website](https://hds-sandbox.github.io/news.html).
 :::
-
 
 #### Acknowledgements
 

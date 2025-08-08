@@ -1,0 +1,10 @@
+---
+title: Electronic health records
+format: 
+  html:
+    toc: true
+    toc-location: left
+date-modified: last-modified
+date-format: long
+---
+
